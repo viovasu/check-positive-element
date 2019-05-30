@@ -1,7 +1,7 @@
-n=int(input())
-if n>0:
-	print("Positive")
-elif:
-	print("Negative")
-else:
-	print("Zero")
+n=3
+if n%2!=0:
+	print("Odd")
+elif n%2==0:
+	print("even")
+elif n<0:
+	print("Invalid")
