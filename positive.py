@@ -1,7 +1,7 @@
-n=3
-if n%2!=0:
-	print("Odd")
-elif n%2==0:
-	print("even")
+n=int(input())
+if n<>0:
+	print("Positive")
 elif n<0:
-	print("Invalid")
+	print("Negative")
+else:
+	print("Positive")
